@@ -1,0 +1,139 @@
+.calendar-container, .calendar, .calendar-header, td, tr
+    padding: 0
+    margin: 0
+
+.calendar-container
+    border: 2px solid skyblue
+    display: flex
+    justify-content: center
+
+.calendar
+    background-color: white
+    border-spacing: 0
+    border-collapse: collapse
+    width: 100%
+
+.calendar-header
+    border-bottom: 1px solid skyblue
+    font-size: 1.6em
+
+.calendar-header td
+    border-spacing: 0
+    padding-left: 5px
+
+.day, .empty-slot, .week-day
+    text-align: center
+    height: 40px
+
+.week-day
+    font-style: 8em
+
+.day
+    font-style: 0.8em
+    border: 0.3px solid #cfcfcf
+
+    
+.daydiv
+    padding: 2px
+    margin: 2px
+
+.day
+    cursor: pointer
+    width: 24px
+    height: 24px
+    line-height: 24px
+
+.day:hover
+    background-color: #36b5ff
+    opacity: 0.7
+
+.day:focus
+    border: 0.3px solid red
+
+
+    
+
+
+.current-day
+    background-color: #4285f4
+    width: 28px
+    height: 28px
+    line-height: 28px
+    border-radius: 2%
+    color: white
+
+.month-popup
+    position: absolute
+    padding: 5px
+    background: white
+    border: 2px solid skyblue
+    
+
+.month-popup div
+    padding: 0.3em
+
+.nav-month
+    position: absolute
+    top: 2px
+    font-size: 0.6em
+    right: 10px
+    margin-right: 5px
+  
+.editor-year
+    max-width: 3.6em
+
+.label-month, .label-year
+    font-size: 0.6em
+
+.label-month
+    cursor: pointer
+
+.label-month:hover, .label-year:hover
+    color: #4285f4
+    
+.prevArrow:hover
+    background-color: rgba(117, 190, 218, 0.3)
+    box-shadow: -5px 0 5px   rgba(117, 190, 218, 0.3)
+    border-top-left-radius: 50%
+    border-bottom-left-radius: 50%
+    color: #4285f4
+    border-top-right-radius: 50%
+    border-bottom-right-radius: 50%
+    transition:  ease-in-out 0.2s
+
+.nextArrow:hover
+    background-color: rgba(117, 190, 218, 0.3)
+    box-shadow: 5px 0 5px  rgba(117, 190, 218, 0.3)
+    border-top-right-radius: 50%
+    border-bottom-right-radius: 50%
+    border-top-left-radius: 50%
+    border-bottom-left-radius: 50%
+    color: #4285f4
+    transition:  ease-in-out 0.2s
+
+.nextArrow
+    cursor: pointer
+    padding: 5px 0 5px 10px
+
+
+.prevArrow
+    padding: 5px 10px 5px 0
+    cursor: pointer
+
+.prevArrow
+    background-color: rgba(24,144,255,0.3)
+    box-shadow: -5px 0 5px   rgba(24,144,255,0.3)
+    border-top-left-radius: 50%
+    border-bottom-left-radius: 50%
+    border-top-right-radius: 25%
+    border-bottom-right-radius: 25%
+    
+
+.nextArrow
+    background-color: rgba(24,144,255,0.3)
+    box-shadow: 5px 0 5px  rgba(24,144,255,0.3)
+    border-top-right-radius: 50%
+    border-bottom-right-radius: 50%
+    border-top-left-radius: 25%
+    border-bottom-left-radius: 25%
+    
