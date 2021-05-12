@@ -35,7 +35,7 @@
     "react-dom": "^16.6.3",
     "react-id-swiper": "^2.3.2",
     "react-router-dom": "^5.1.2",
-    "swiper": "^4.5.0",
+    "swiper": "^6.5.1",
     "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {
