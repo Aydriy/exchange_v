@@ -27,7 +27,7 @@
     "formic": "0.0.10",
     "formik": "^1.5.7",
     "moment": "^2.24.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "node-sass-middleware": "^0.11.0",
     "package": "^1.0.1",
     "pg": "^7.4.0",
